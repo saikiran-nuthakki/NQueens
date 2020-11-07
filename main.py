@@ -1,3 +1,20 @@
+#Saikiran Nuthakki: N-Queens Solver
+
+############################################################
+# Imports
+############################################################
+
+
+import math
+from itertools import combinations
+import random
+import copy
+
+############################################################
+ # N-Queens
+############################################################
+
+
 def num_placements_all(n):
     return math.factorial(n**2) / (math.factorial((n**2) - n) * math.factorial(n))
 
