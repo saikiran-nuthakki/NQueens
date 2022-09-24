@@ -1,7 +1,7 @@
 import solution
 import unittest
 
-class Testhw2(unittest.TestCase):
+class Test(unittest.TestCase):
 
     def test_num_placements_all(self):
         self.assertEqual(solution.num_placements_all(4), 1820)
